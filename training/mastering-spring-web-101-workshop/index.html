@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang='en'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='스프링 기반 웹 애플리케이션에 서버 사이드를 실습 중심으로 학습하는 워크샵입니다.'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Mastering Spring Web 101 Workshop | SpringRunner'>
+<meta property='og:description' content='스프링 기반 웹 애플리케이션에 서버 사이드를 실습 중심으로 학습하는 워크샵입니다.'>
+<meta property='og:url' content='http://springrunner.github.io/training/mastering-spring-web-101-workshop/'>
+<meta property='og:site_name' content='SpringRunner'>
+<meta property='og:type' content='article'><meta property='og:image' content='http://springrunner.github.io/training/mastering-spring-web-101-workshop/demo.png'><meta property='article:section' content='training'><meta property='article:tag' content='spring mvc'><meta property='article:tag' content='spring boot'><meta property='article:published_time' content='2018-12-01T09:00:00&#43;09:00'/><meta property='article:modified_time' content='2018-12-01T09:00:00&#43;09:00'/><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.52" />
+
+  <title>Mastering Spring Web 101 Workshop | SpringRunner</title>
+  <link rel='canonical' href='http://springrunner.github.io/training/mastering-spring-web-101-workshop/'>
+  
+  
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.4a10984a.css'><link rel='stylesheet' href='/assets/css/custom.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-131208921-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+</head>
+<body class='page type-training has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='/'>
+        <img src='/assets/images/logo.png'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+     
+    </h2>
+    <div class='desc'>
+    Spring Training Team
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/springrunner' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:springrunner.kr@gmail.com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='/tags/spring-boot/' style='font-size:1em'>spring boot</a>
+      </li><li>
+        <a href='/tags/spring-mvc/' style='font-size:1em'>spring mvc</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+  
+</svg>
+</span>
+  <span class='close'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+  
+</svg>
+</span>
+</button>
+    <ul><li class='item'>
+        <a href='/'>about us</a>
+      </li><li class='item'>
+        <a href='/training/'>training</a>
+      </li></ul>
+  </div>
+</nav><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='/'>HOME</a></li><li><a href='/training/'>Training</a></li><li><span>Workshop</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>SpringRunner</p>
+              <p class='desc site-desc'></p></div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Mastering Spring Web 101 Workshop</h1>
+      
+<p class='desc'>스프링 기반 웹 애플리케이션에 서버 사이드를 실습 중심으로 학습하는 워크샵입니다.</p>
+
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-12-01T09:00:00&#43;09:00'>2018, Dec 01</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/arawn'>박용권</a>, <a href='/authors/honeymon'>김지헌</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+3 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  
+
+<blockquote>
+<p>본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 1월 중순 이후로 계획되어 있습니다.</p>
+</blockquote>
+
+<p>본 워크숍은 <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html" target="_blank">Spring MVC</a>와 <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a>로 웹 애플리케이션에 서버 사이드(Server-side)를 직접 개발하며 학습해보는 과정입니다. 이 과정을 통해 참가자는 Spring MVC에 핵심인 HTTP 요청 연결, 데이터 바인딩, 응답 및 예외 처리 방법을 배우고, 경험 할 수 있습니다.</p>
+
+<ul>
+<li>Spring MVC와 Spring Boot가 제공하는 다양한 웹 기능을 학습할 수 있습니다.</li>
+<li>웹 애플리케이션에 서버 사이드 전체를 개발해보는 경험을 할 수 있습니다.
+
+<ul>
+<li>프론트엔드 엔지니어와 협업하며 프로젝트를 수행하는 것과 유사한 경험을 할 수 있습니다.</li>
+<li>보편적인 웹 애플리케이션 아키텍처를 엿볼 수 있습니다.</li>
+</ul></li>
+<li>라이브 코딩과 설명, 실습으로 16시간(하루 8시간, 이틀간) 동안 진행됩니다.</li>
+</ul>
+
+<h2 id="목표">목표</h2>
+
+<ul>
+<li>Spring MVC의 구조와 아키텍처를 살펴봅니다.
+
+<ul>
+<li>Spring Boot가 제공하는 웹 기능도 함께 살펴봅니다.</li>
+</ul></li>
+<li>HTTP 요청을 연결하는 방법을 학습합니다.
+
+<ul>
+<li>URL과 HTTP Method, Header 등 사용해 연결하는 방법을 다룹니다.</li>
+<li>정적 자원(css, image, javascript)을 연결하는 방법을 다룹니다.</li>
+</ul></li>
+<li>HTTP 요청시 클라이언트(브라우저)가 전송한 데이터을 다루는 방법을 학습합니다.
+
+<ul>
+<li>HTML 폼, JSON 페이로드, 파일 등 다양한 요청 데이터를 다룹니다.</li>
+</ul></li>
+<li>요청 처리 결과를 클라이언트(브라우저)에게 응답하는 방법을 학습합니다.
+
+<ul>
+<li>HTML 또는 JSON, 파일 컨텐트를 다룹니다.</li>
+</ul></li>
+<li>요청 및 응답 처리 과정에서 발생한 예외를 처리하는 방법을 학습합니다.
+
+<ul>
+<li>오류 페이지와 메시지를 처리하는 방법을 다룹니다.</li>
+</ul></li>
+<li>요청과 응답에 대해 전처리 또는 후처리 방법을 학습합니다.
+
+<ul>
+<li>사용자 인증과 인가 또는 로깅 등 처리 방법을 다룹니다.</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Internationalization_and_localization" target="_blank">i18n</a>을 위한 메세지 다국어 처리 방법을 학습합니다.</li>
+<li>(미정) MVC 테스트 방법에 대해 학습합니다.</li>
+</ul>
+
+<h2 id="학습환경">학습환경</h2>
+
+<p>사용하는 JVM 플랫폼 및 프레임워크, 라이브러리와 도구는 아래와 같습니다.</p>
+
+<ul>
+<li>Java 1.8.x 및 Java EE 7을 사용합니다.</li>
+<li><a href="https://spring.io/projects/spring-framework" target="_blank">Spring MVC 5.x</a>, <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot 2.x</a>를 사용합니다.</li>
+<li>빌드 도구로 <a href="https://gradle.org" target="_blank">그레이들(Gradle)</a>을 사용합니다.</li>
+<li><a href="https://ko.wikipedia.org/wiki/통합_개발_환경" target="_blank">IDE</a>는 <a href="https://spring.io/tools" target="_blank">Spring Tool Suite</a>를 사용합니다.</li>
+</ul>
+
+<h2 id="진행방식">진행방식</h2>
+
+<p>참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 웹 클라이언트로 할 일 관리 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.</p>
+
+<p align="center">
+  <img width="640px" src="demo.png"/>
+</p>
+
+<p>가이드 러너가 라이브 코딩과 함께 Spring MVC(또는 Spring Boot)에 기능을 설명해주면, 참가자는 해당 코드를 직접 작성하고 실행-테스트 하는 과정을 반복하며 완전한 웹 애플리케이션을 개발해보는 방식으로 진행됩니다.</p>
+
+<h2 id="참가대상-및-준비물">참가대상 및 준비물</h2>
+
+<p>본 워크숍은 자바(Java)와 웹(Web)에 대한 이해가 있는 분을 대상으로 합니다.</p>
+
+<ul>
+<li>자바(Java)에 언어 특징과 문법을 이해하고 사용할 줄 알아야 합니다.
+
+<ul>
+<li>서블릿(Servlet)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.</li>
+</ul></li>
+<li><a href="https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html" target="_blank">HTTP</a>에 대한 기본 지식과 이해가 필요합니다.
+
+<ul>
+<li>요청(Request)과 응답(Response)이라는 웹 처리 흐름에 대한 이해가 있어야 합니다.</li>
+<li>HTTP 헤더, 쿠키, 세션, 상태코드 등에 대한 이해가 있어야 합니다.</li>
+<li><a href="https://en.wikipedia.org/wiki/Media_type" target="_blank">미디어타입(Media Type)</a>에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.</li>
+</ul></li>
+<li>웹 기술(HTML, CSS, JavaScript)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.</li>
+</ul>
+
+<p>참가자는 Java 1.8.x와 <a href="https://spring.io/tools" target="_blank">Spring Tool Suite</a>가 설치된 개인 노트북을 지참해야 합니다.</p>
+
+<blockquote>
+<p>본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 1월 중순 이후로 계획되어 있습니다.</p>
+</blockquote>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='categories'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/workshop/'>workshop</a></div>
+<div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/spring-mvc/'>spring mvc</a>, <a class='tag' href='/tags/spring-boot/'>spring boot</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/springrunner' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:springrunner.kr@gmail.com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><div class='copyright'>
+  <p> &copy; 2018 SpringRunner </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__public_path__='\/assets\/js\/'</script>
+
+<script src='/assets/js/main.fae8ed32.js'></script>
+
+</body>
+
+</html>
+

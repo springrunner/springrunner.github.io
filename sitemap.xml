@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://springrunner.github.io/training/mastering-spring-web-101-workshop/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/training/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/authors/arawn/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/authors/honeymon/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/tags/spring-boot/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/tags/spring-mvc/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://springrunner.github.io/categories/workshop/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

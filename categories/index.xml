@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on SpringRunner</title>
+    <link>http://springrunner.github.io/categories/</link>
+    <description>Recent content in Categories on SpringRunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://springrunner.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>workshop</title>
+      <link>http://springrunner.github.io/categories/workshop/</link>
+      <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>http://springrunner.github.io/categories/workshop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

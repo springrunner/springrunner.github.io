@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on SpringRunner</title>
+    <link>http://springrunner.github.io/authors/</link>
+    <description>Recent content in Authors on SpringRunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://springrunner.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>arawn</title>
+      <link>http://springrunner.github.io/authors/arawn/</link>
+      <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>http://springrunner.github.io/authors/arawn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>honeymon</title>
+      <link>http://springrunner.github.io/authors/honeymon/</link>
+      <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>http://springrunner.github.io/authors/honeymon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
