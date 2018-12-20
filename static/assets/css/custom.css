@@ -1,0 +1,11 @@
+.widget.sep-after:after {
+    margin-top: 1.76em;
+}
+
+.widget-about .logo {
+    max-width: 100%;
+}
+
+.widget-about .logo img {
+    border-radius: 5px;
+}

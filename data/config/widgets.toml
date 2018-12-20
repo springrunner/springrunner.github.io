@@ -1,0 +1,10 @@
+# About Widget config
+[about]
+title = " "                                     # default: .Site.Title
+description = "Spring Training Team"            # default: .Site.Params.info.description
+logo = "/assets/images/logo.png"                # default: "/images/logo.png"
+
+# Breadcrumbs Widget config
+[breadcrumbs]
+separator = "/"                      # default: "/"
+excludeParents = ["HOME","page"]     # default: ["page"]
