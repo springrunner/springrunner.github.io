@@ -1,0 +1,21 @@
+<li class="item">
+  <div class="meta">
+    {{- $dateFormat := ( .Site.Params.settings.listDateFormat | default "2006, Jan 02" ) -}}
+    <span>
+      <span class="screen-reader-text">{{ i18n "postedOn" }} </span>
+      <time datetime='{{ .Date.Format "2006-01-02T00:00:00+09:00" }}'>
+        {{- with .Params.CourseDate -}}
+          {{ $t := (time .) }}
+          {{- $t.Format $dateFormat -}}
+        {{- else -}}
+          {{- .Date.Format $dateFormat -}}
+        {{- end -}}
+      </time>
+    </span>
+  </div>
+  <header class="item-header">
+    <h3 class="item-title">
+      <a href="{{ .Permalink | relURL }}"> {{- .Title -}} </a>
+    </h3>
+  </header>
+</li>

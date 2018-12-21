@@ -39,12 +39,12 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
+dateFormat = "2006-01-02"
+listDateFormat = "2006-01-02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"]  # boolean / array of sections
 hideEntryMeta = ["page"]        # boolean / array of sections
-showReadingTime = true
+showReadingTime = false
 showLastmod = true
 taxonomyCloudShuffle = true
 accentColor = "#ffcd00"
@@ -139,10 +139,10 @@ name   = "training"
 url    = "/training/"
 weight = 10
 
-#[[menu.main]]
-#name   = "posts"
-#url    = "/post/"
-#weight = 20
+[[menu.main]]
+name   = "posts"
+url    = "/post/"
+weight = 20
 
 #[[menu.main]]
 #name = "Repo"

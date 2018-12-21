@@ -1,8 +1,9 @@
 ---
-date: 2018-12-01T09:00:00+09:00
 title: "Mastering Spring Web 101 Workshop"
-description: "스프링 기반 웹 애플리케이션에 서버 사이드를 실습 중심으로 학습하는 워크샵입니다."
+description: "스프링 기반 웹 애플리케이션 - 서버 사이드를 실습 중심으로 학습하는 워크샵입니다."
 linkTitle: "Workshop"
+date: 2018-12-01T09:00:00+09:00
+courseDate: 2019-02-09T09:00:00+09:00
 comments: false
 isCJKLanguage: true
 authors: ["arawn","honeymon"]
@@ -14,7 +15,7 @@ tags: ["spring mvc", "spring boot"]
 
 > 본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 2월 초로 계획되어 있습니다.
 
-본 워크숍은 [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)와 [Spring Boot](https://spring.io/projects/spring-boot)로 웹 애플리케이션에 서버 사이드(Server-side)를 직접 개발하며 학습해보는 과정입니다. 이 과정을 통해 참가자는 Spring MVC에 핵심인 HTTP 요청 연결, 데이터 바인딩, 응답 및 예외 처리 방법을 배우고, 경험 할 수 있습니다.
+본 워크숍은 [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)와 [Spring Boot](https://spring.io/projects/spring-boot)로 웹 애플리케이션에 서버 사이드(Server-side)를 직접 개발하며 학습해보는 워크숍입니다. 참가자는 Spring MVC에 핵심인 HTTP 요청 연결, 데이터 바인딩, 응답 및 예외 처리 방법을 배우고, 경험 할 수 있습니다.
 
 * Spring MVC와 Spring Boot가 제공하는 다양한 웹 기능을 학습할 수 있습니다.
 * 웹 애플리케이션에 서버 사이드 전체를 개발해보는 경험을 할 수 있습니다.
@@ -71,7 +72,7 @@ tags: ["spring mvc", "spring boot"]
     - [미디어타입(Media Type)](https://en.wikipedia.org/wiki/Media_type)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
 * 웹 기술(HTML, CSS, JavaScript)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
 
-참가자는 Java 1.8.x와 [Spring Tool Suite](https://spring.io/tools)가 설치된 개인 노트북을 지참해야 합니다.
+참가자는 Java 1.8.x와 Spring Tool Suite가 설치된 개인 노트북을 지참해야 합니다.
 
 > 본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 2월 초로 계획되어 있습니다.
 > 
