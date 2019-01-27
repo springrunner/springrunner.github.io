@@ -16,7 +16,7 @@
       <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
       
       <guid>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</guid>
-      <description>본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 2월 초로 계획되어 있습니다. 본 워크숍은 Spring MVC와 Spring Boot로 웹 애플리케이션에 서버 사이드(Se</description>
+      <description>본 워크숍은 Spring MVC와 Spring Boot로 웹 애플리케이션 서버 사이드(Server-side)를 직접 개발하며 학습하는 워크숍입니다. 참가자는 Spring MVC의 핵심</description>
     </item>
     
   </channel>
