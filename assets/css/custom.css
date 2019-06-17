@@ -67,6 +67,16 @@
     background-color: #d35400;
 }
 
+.btn-register.gray {
+    color:rgb(160, 160, 160);
+    background-color:rgb(78, 78, 78);
+}
+
+.btn-register.gray:hover, .btn-register.gray:focus {
+    color:rgb(160, 160, 160);
+    background-color: rgb(78, 78, 78);
+}
+
 .btn-register.red {
     background-color: #e74c3c;
 }

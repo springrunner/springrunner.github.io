@@ -3,17 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</loc>
-    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://springrunner.github.io/authors/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://springrunner.github.io/categories/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -23,21 +20,18 @@
   </url>
   
   <url>
-    <loc>https://springrunner.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://springrunner.github.io/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://springrunner.github.io/tags/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://springrunner.github.io/training/</loc>
+    <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</loc>
     <lastmod>2018-12-01T09:00:00+09:00</lastmod>
   </url>
   
@@ -68,6 +62,15 @@
   <url>
     <loc>https://springrunner.github.io/categories/workshop/</loc>
     <lastmod>2018-12-01T09:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://springrunner.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://springrunner.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
