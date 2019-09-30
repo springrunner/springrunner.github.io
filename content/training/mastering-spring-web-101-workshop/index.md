@@ -3,7 +3,7 @@ title: "Mastering Spring Web 101 Workshop"
 description: "스프링 기반 웹 애플리케이션 - 서버 사이드를 실습 중심으로 학습하는 워크샵입니다."
 linkTitle: "Workshop"
 date: 2018-12-01T09:00:00+09:00
-courseDate: 2019-02-09T09:00:00+09:00
+courseDate: 2019-08-24T10:00:00+09:00
 comments: false
 isCJKLanguage: true
 authors: ["arawn","honeymon"]
@@ -13,9 +13,7 @@ categories: ["workshop"]
 tags: ["spring mvc", "spring boot"]
 ---
 
-> 본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 2월 초로 계획되어 있습니다.
-
-본 워크숍은 [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)와 [Spring Boot](https://spring.io/projects/spring-boot)로 웹 애플리케이션에 서버 사이드(Server-side)를 직접 개발하며 학습해보는 워크숍입니다. 참가자는 Spring MVC에 핵심인 HTTP 요청 연결, 데이터 바인딩, 응답 및 예외 처리 방법을 배우고, 경험 할 수 있습니다.
+본 워크숍은 [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)와 [Spring Boot](https://spring.io/projects/spring-boot)로 웹 애플리케이션 서버 사이드(Server-side)를 직접 개발하며 학습하는 워크숍입니다. 참가자는 Spring MVC의 핵심인 HTTP 요청 연결, 데이터 바인딩, 응답 및 예외 처리 방법을 배우고 경험 할 수 있습니다.
 
 * Spring MVC와 Spring Boot가 제공하는 다양한 웹 기능을 학습할 수 있습니다.
 * 웹 애플리케이션에 서버 사이드 전체를 개발해보는 경험을 할 수 있습니다.
@@ -39,7 +37,6 @@ tags: ["spring mvc", "spring boot"]
 * 요청과 응답에 대해 전처리 또는 후처리 방법을 학습합니다.
   - 사용자 인증과 인가 또는 로깅 등 처리 방법을 다룹니다.
 * [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization)을 위한 메세지 다국어 처리 방법을 학습합니다.
-* (미정) MVC 테스트 방법에 대해 학습합니다.
 
 ## 학습환경
 
@@ -52,7 +49,7 @@ tags: ["spring mvc", "spring boot"]
 
 ## 진행방식
 
-참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 웹 클라이언트로 할 일 관리 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.
+참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 [웹 클라이언트](https://github.com/springrunner/todoapp-client)로 할 일 관리 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.
 
 <p align="center">
   <img width="640px" src="demo.png"/>
@@ -74,6 +71,59 @@ tags: ["spring mvc", "spring boot"]
 
 참가자는 Java 1.8.x와 Spring Tool Suite가 설치된 개인 노트북을 지참해야 합니다.
 
-> 본 과정은 현재 개발 중인 상태이며, 정식 오픈은 2019년 2월 초로 계획되어 있습니다.
-> 
-> 참가자 모집 방식과 기간은 2019년 1월 중 이 페이지를 통해 공개될 예정입니다.
+## 참가신청 및 비용
+
+- 본 워크숍은 **유료**로 **사전 신청 및 결제** 후 참여할 수 있습니다.
+- 신청 및 결제는 [페스타(Festa)](https://festa.io)를 통해 할 수 있습니다.
+- 참가비는 30만원이며, 참가비의 15%는 **오픈소스 기부활동**으로 사용됩니다.
+    * <small>**참가비 할인 행사**가 진행되고 있습니다.</small>
+    * <small>할인 행사시 기부 활동으로 이어지지 않습니다.</small>
+
+## 참가취소 및 환불 정책
+- **마감전 취소/환불**은 페스타에서 할 수 있습니다.
+    - <small>참가 취소/환불 규정은 페스타 약관에 따라 처리됩니다.</small>
+    - <small>참가비의 100%가 환불됩니다.</small>
+- **마감후 취소/환불**은 메일(springrunner.kr@gmail.com)로 신청해야합니다.
+    - <small>메일 내용에 은행 / 환불계좌 / 계좌주 / 연락처 / 페스타 아이디를 작성해 보내야합니다.</small>
+    - <small>참가비의 50%가 환불됩니다. (교육장 계약 비용으로 인한 점 양해바랍니다)</small>
+
+<hr>
+
+###### Mastering Spring Web 101 Workshop (5th)
+- 신청기간 및 인원
+    * 2019년 10월 1일 10:00 ~ 2019년 10월 11일 23:00 / 12명
+- 일정
+    * 1일차: 2019년 10월 19일 10:00 ~ 19:00 (점심식사 1시간 포함)
+    * 2일차: 2019년 10월 26일 10:00 ~ 19:00 (점심식사 1시간 포함)
+- 장소
+    * 장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스 ([네이버지도로 보기 →](http://naver.me/xot7HJnG))
+
+<p align="center">
+    <a href="https://festa.io/events/574" class="btn-register" target="_blank">참가신청</a>
+</p>
+
+<hr>
+
+###### ~~Done: Mastering Spring Web 101 Workshop (4th)~~
+- <small>일정: 2019년 9월 7일 10:00 ~ 19:00 / 9월 8일 10:00 ~ 19:00</small>
+- <small>장소: 서울특별시 강남구 테헤란로4길 6 강남역센트럴푸르지오시티 3층 312호, 마이워크스페이스 1호점 컨퍼런스룸 ([네이버지도로 보기 →](http://naver.me/xayY8tpm))</small>
+- <small>인원: 11명</small>
+
+###### ~~Done: Mastering Spring Web 101 Workshop (3rd)~~
+- <small>일정: 2019년 8월 24일 10:00 ~ 19:00 / 8월 25일 10:00 ~ 19:00</small>
+- <small>장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스</small>
+- <small>인원: 13명</small>
+
+###### ~~Done: Mastering Spring Web 101 Workshop (2nd)~~
+- <small>일정: 2019년 7월 20일 ~ 2019년 7월 21일</small>
+- <small>장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스</small>
+- <small>인원: 11명</small>
+
+###### ~~Done: Mastering Spring Web 101 Workshop (1st)~~
+- <small>일정: 2019년 2월 16일 ~ 2019년 2월 17일</small>
+- <small>장소: 서울특별시 강남구 강남대로62길 23 4층, 코드스쿼드</small>
+- <small>인원: 10명</small>
+
+<script type="text/javascript">
+  fbq('track', 'ViewContent', { value: 'springweb101' });
+</script>
