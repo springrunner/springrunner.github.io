@@ -3,7 +3,7 @@ title: "Mastering Spring Web 101 Workshop"
 description: "스프링 기반 웹 애플리케이션 - 서버 사이드를 실습 중심으로 학습하는 워크샵입니다."
 linkTitle: "Workshop"
 date: 2018-12-01T09:00:00+09:00
-courseDate: 2019-08-24T10:00:00+09:00
+courseDate: 2019-11-24T10:00:00+09:00
 comments: false
 isCJKLanguage: true
 authors: ["arawn","honeymon"]
@@ -21,7 +21,7 @@ tags: ["spring mvc", "spring boot"]
     - 보편적인 웹 애플리케이션 아키텍처를 엿볼 수 있습니다.
 * 라이브 코딩과 설명, 실습으로 16시간(하루 8시간, 이틀간) 동안 진행됩니다.
 
-## 목표
+### 목표
 
 * Spring MVC의 구조와 아키텍처를 살펴봅니다.
   - Spring Boot가 제공하는 웹 기능도 함께 살펴봅니다.
@@ -38,16 +38,16 @@ tags: ["spring mvc", "spring boot"]
   - 사용자 인증과 인가 또는 로깅 등 처리 방법을 다룹니다.
 * [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization)을 위한 메세지 다국어 처리 방법을 학습합니다.
 
-## 학습환경
+### 학습자료 및 환경
 
-사용하는 JVM 플랫폼 및 프레임워크, 라이브러리와 도구는 아래와 같습니다.
+워크숍 과정에서 제공되는 학습 자료 중 일부를 [링크](https://github.com/springrunner/learn-spring-web-programming)를 통해 볼 수 있습니다. 그리고 사용하는 JVM 플랫폼 및 프레임워크, 라이브러리와 도구는 아래와 같습니다.
 
 * Java 1.8.x 및 Java EE 7을 사용합니다.
 * [Spring MVC 5.x](https://spring.io/projects/spring-framework), [Spring Boot 2.x](https://spring.io/projects/spring-boot)를 사용합니다.
 * 빌드 도구로 [그레이들(Gradle)](https://gradle.org)을 사용합니다.
 * [IDE](https://ko.wikipedia.org/wiki/통합_개발_환경)는 [Spring Tool Suite](https://spring.io/tools)를 사용합니다.
 
-## 진행방식
+### 진행방식
 
 참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 [웹 클라이언트](https://github.com/springrunner/todoapp-client)로 할 일 관리 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.
 
@@ -57,7 +57,7 @@ tags: ["spring mvc", "spring boot"]
 
 가이드 러너가 라이브 코딩과 함께 Spring MVC(또는 Spring Boot)에 기능을 설명해주면, 참가자는 해당 코드를 직접 작성하고 실행-테스트 하는 과정을 반복하며 완전한 웹 애플리케이션을 개발해보는 방식으로 진행됩니다.
 
-## 참가대상 및 준비물
+### 참가대상 및 준비물
 
 본 워크숍은 자바(Java)와 웹(Web)에 대한 이해가 있는 분을 대상으로 합니다.
 
@@ -71,7 +71,7 @@ tags: ["spring mvc", "spring boot"]
 
 참가자는 Java 1.8.x와 Spring Tool Suite가 설치된 개인 노트북을 지참해야 합니다.
 
-## 참가신청 및 비용
+### 참가신청 및 비용
 
 - 본 워크숍은 **유료**로 **사전 신청 및 결제** 후 참여할 수 있습니다.
 - 신청 및 결제는 [페스타(Festa)](https://festa.io)를 통해 할 수 있습니다.
@@ -79,7 +79,7 @@ tags: ["spring mvc", "spring boot"]
     * <small>**참가비 할인 행사**가 진행되고 있습니다.</small>
     * <small>할인 행사시 기부 활동으로 이어지지 않습니다.</small>
 
-## 참가취소 및 환불 정책
+### 참가취소 및 환불 정책
 - **마감전 취소/환불**은 페스타에서 할 수 있습니다.
     - <small>참가 취소/환불 규정은 페스타 약관에 따라 처리됩니다.</small>
     - <small>참가비의 100%가 환불됩니다.</small>
@@ -89,24 +89,27 @@ tags: ["spring mvc", "spring boot"]
 
 <hr>
 
-###### Mastering Spring Web 101 Workshop (5th)
-- 신청기간 및 인원
-    * 2019년 10월 1일 10:00 ~ 2019년 10월 11일 23:00 / 12명
-- 일정
-    * 1일차: 2019년 10월 19일 10:00 ~ 19:00 (점심식사 1시간 포함)
-    * 2일차: 2019년 10월 26일 10:00 ~ 19:00 (점심식사 1시간 포함)
-- 장소
-    * 장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스 ([네이버지도로 보기 →](http://naver.me/xot7HJnG))
+### 워크숍 일정
 
-<p align="center">
-    <a href="https://festa.io/events/574" class="btn-register" target="_blank">참가신청</a>
-</p>
+2020년도 워크숍 일정은 준비 중 입니다.
 
 <hr>
 
+### 워크숍 이력
+
+###### ~~Done: Mastering Spring Web 101 Workshop (6th)~~
+- <small>일정: 2019년 11월 23일 10:00 ~ 19:00 / 11월 24일 10:00 ~ 19:00</small>
+- <small>장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스</small>
+- <small>인원: 8명</small>
+
+###### ~~Done: Mastering Spring Web 101 Workshop (5th)~~
+- <small>일정: 2019년 10월 19일 10:00 ~ 19:00 / 10월 26일 10:00 ~ 19:00</small>
+- <small>장소: 서울특별시 강남구 논현로105길 10 2층, 펀에듀스페이스</small>
+- <small>인원: 5명</small>
+
 ###### ~~Done: Mastering Spring Web 101 Workshop (4th)~~
 - <small>일정: 2019년 9월 7일 10:00 ~ 19:00 / 9월 8일 10:00 ~ 19:00</small>
-- <small>장소: 서울특별시 강남구 테헤란로4길 6 강남역센트럴푸르지오시티 3층 312호, 마이워크스페이스 1호점 컨퍼런스룸 ([네이버지도로 보기 →](http://naver.me/xayY8tpm))</small>
+- <small>장소: 서울특별시 강남구 테헤란로4길 6, 마이워크스페이스 1호점 컨퍼런스룸</small>
 - <small>인원: 11명</small>
 
 ###### ~~Done: Mastering Spring Web 101 Workshop (3rd)~~
