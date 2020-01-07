@@ -139,10 +139,10 @@ name   = "training"
 url    = "/training/"
 weight = 10
 
-#[[menu.main]]
-#name   = "posts"
-#url    = "/post/"
-#weight = 20
+[[menu.main]]
+name   = "blog"
+url    = "/blog/"
+weight = 20
 
 #[[menu.main]]
 #name = "Repo"
