@@ -27,17 +27,21 @@ images: ["/android-chrome-512x512.png"]
 
 ## 팀 구성
 
-### [박용권](https://arawn.github.io/about/) / arawn
-* 12년차 엔터프라이즈 애플리케이션 개발 경력을 가진 시니어 소프트웨어 엔지니어겸 애플리케이션 아키텍트
+### [박용권](https://arawn.github.io/) / arawn
+* 14년차 엔터프라이즈 애플리케이션 개발 경력을 가진 시니어 소프트웨어 엔지니어
 * SK플래닛 사내 스프링 웹 프로그래밍 강사 활동
-* 지식 공유 및 기술 교류 목적으로 개발자 커뮤니티 및 컨퍼런스 운영, 다수의 세미나/교육 강연 활동
-    - 기업 초대 강연: [점진적인 레거시 웹 애플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631) (2018)
-    - Spring Camp 컨퍼런스: [이벤트 기반 분산 시스템을 향한 여정](https://www.slideshare.net/arawnkr/ss-94475606) (2018)
-    - Adied 2014, 봄싹 세미나: [Resource Handling in Spring MVC](https://www.slideshare.net/arawnkr/resource-handling-in-spring-mvc) (2014)
-    - 한국 자바 개발자 컨퍼런스(JCO Conference): [Overview of Spring 4.0](https://www.slideshare.net/arawnkr/overview-of-spring4) (2014)
-    - Spring Camp 컨퍼런스: Core Spring - [Java Configuration](https://www.slideshare.net/arawnkr/spring-camp-2013-java-configuration) (2013)
-    - 한국 자바 개발자 컨퍼런스(JCO Conference): [Spring framework 3.2 > 4.0 — themes and trends](https://www.slideshare.net/arawnkr/spring-framework-32-40-themes-and-trends) (2013)
-    - 전자정부 표준프레임워크 오픈커뮤니티 기술세미나: [빠르게 살펴보는 Spring MVC의 모든 것](http://olc.kr/course/course_online_view.jsp?id=254) (2012)
+* 기술 교육 활동
+    - 카카오페이 신입 크루 온보딩 프로그램: Learn Java And Spring Programming Workshop
+    - SK플래닛 사내 스프링 웹 프로그래밍 강사 활동
+* 지식 공유 및 기술 교류 목적으로 컨퍼런스/세미나에서 강연 활동
+    - 2019·한국 스프링 사용자 모임 세미나: [잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다](https://www.slideshare.net/arawnkr/ss-195979955)
+    - 2018·기업 초대 강연: [점진적인 레거시 웹 애플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
+    - 2018·Spring Camp 컨퍼런스: [이벤트 기반 분산 시스템을 향한 여정](https://www.slideshare.net/arawnkr/ss-94475606)
+    - 2014·Adied 2014, 봄싹 세미나: [Resource Handling in Spring MVC](https://www.slideshare.net/arawnkr/resource-handling-in-spring-mvc)
+    - 2014·한국 자바 개발자 컨퍼런스(JCO Conference): [Overview of Spring 4.0](https://www.slideshare.net/arawnkr/overview-of-spring4)
+    - 2013·Spring Camp 컨퍼런스: Core Spring - [Java Configuration](https://www.slideshare.net/arawnkr/spring-camp-2013-java-configuration)
+    - 2013·한국 자바 개발자 컨퍼런스(JCO Conference): [Spring framework 3.2 > 4.0 — themes and trends](https://www.slideshare.net/arawnkr/spring-framework-32-40-themes-and-trends)
+    - 2012·전자정부 표준프레임워크 오픈커뮤니티 기술세미나: [빠르게 살펴보는 Spring MVC의 모든 것](http://olc.kr/course/course_online_view.jsp?id=254)
 
 ### [김지헌](http://honeymon.io/about) / honeymon
 * 8년차 자바 기반 애플리케이션 개발자
