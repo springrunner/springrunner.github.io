@@ -140,8 +140,8 @@ url    = "/training/"
 weight = 10
 
 [[menu.main]]
-name   = "blog"
-url    = "/blog/"
+name   = "guides"
+url    = "/guides/"
 weight = 20
 
 #[[menu.main]]
