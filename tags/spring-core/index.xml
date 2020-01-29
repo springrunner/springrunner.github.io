@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SpringRunner</title>
-    <link>https://springrunner.github.io/training/</link>
-    <description>Recent content on SpringRunner</description>
+    <title>spring core on SpringRunner</title>
+    <link>https://springrunner.github.io/tags/spring-core/</link>
+    <description>Recent content in spring core on SpringRunner</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://springrunner.github.io/training/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://springrunner.github.io/tags/spring-core/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       
       <guid>https://springrunner.github.io/training/learn-essence-of-spring-workshop/</guid>
       <description>본 워크숍은 스프링 프레임워크의 기본 기술이자 핵심 개발 원칙인 제어의 역전(IoC)과 의존관계 주입(DI)을 이해하고, 더 나아가 스프링 3대 핵심 기술인 스프</description>
-    </item>
-    
-    <item>
-      <title>Mastering Spring Web 101 Workshop</title>
-      <link>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</link>
-      <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
-      
-      <guid>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</guid>
-      <description>본 워크숍은 Spring MVC와 Spring Boot로 웹 애플리케이션 서버 사이드(Server-side)를 직접 개발하며 학습하는 워크숍입니다. 참가자는 Spring MVC의 핵심</description>
     </item>
     
   </channel>

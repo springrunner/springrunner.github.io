@@ -5,10 +5,19 @@
     <link>https://springrunner.github.io/authors/arawn/</link>
     <description>Recent content in arawn on SpringRunner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Dec 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://springrunner.github.io/authors/arawn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn Essence of Spring Workshop</title>
+      <link>https://springrunner.github.io/training/learn-essence-of-spring-workshop/</link>
+      <pubDate>Tue, 17 Dec 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://springrunner.github.io/training/learn-essence-of-spring-workshop/</guid>
+      <description>본 워크숍은 스프링 프레임워크의 기본 기술이자 핵심 개발 원칙인 제어의 역전(IoC)과 의존관계 주입(DI)을 이해하고, 더 나아가 스프링 3대 핵심 기술인 스프</description>
+    </item>
     
     <item>
       <title>Mastering Spring Web 101 Workshop</title>
