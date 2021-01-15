@@ -150,6 +150,9 @@ weight = 20
 #identifier = "repository"
 #url = "https://github.com/springrunner"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  
 [blackfriday]
 hrefTargetBlank = true
 
