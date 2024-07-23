@@ -19,7 +19,7 @@ images: ["/android-chrome-512x512.png"]
 > 
 > 우리는 트레이너로서 단순히 스프링 관련 지식을 전달하는 것을 넘어 참가자 곁에서 함께 달리며 개발자의 길을 함께 달리는 가이드 러너입니다.
 
-**스프링러너(SpringRunner)**는 '스프링(Spring) + 가이드 러너(Guide Runner)'를 합해 만들어진 이름입니다.
+**스프링러너(SpringRunner)** 는 `스프링(Spring) + 가이드 러너(Guide Runner)`를 합해 만들어진 이름입니다.
 
 ## 트레이닝 과정
 
@@ -28,11 +28,18 @@ images: ["/android-chrome-512x512.png"]
 ## 팀 구성
 
 ### [박용권](https://arawn.github.io/) / arawn
-* 14년차 엔터프라이즈 애플리케이션 개발 경력을 가진 시니어 소프트웨어 엔지니어
+* 19년차 엔터프라이즈 애플리케이션 개발 경력을 가진 시니어 소프트웨어 엔지니어
 * 기술 교육 활동
+    - 네이버 기업교육: 스프링 웹 프로그래밍 워크숍
     - 카카오페이 신입 크루 온보딩 프로그램: Learn Java And Spring Programming Workshop
     - SK플래닛 사내 스프링 웹 프로그래밍 강사 활동
 * 컨퍼런스/세미나 강연 활동
+    - 2023·점핏 개취콘: [알아두면 쓸 데 있는 코틀린](https://speakerdeck.com/arawn/aladumyeon-sseul-de-issneun-koteulrin)
+    - 2023·인프런 퇴근길 밋업: [KOTLINCONF IS BACK : after the party](https://speakerdeck.com/arawn/kotlinconf-is-back-after-the-party)
+    - 2023·스프링캠프: [Journey to Modern Spring](https://speakerdeck.com/arawn/journey-to-modern-spring)
+    - 2022·Let'Swift: [우린 같은 같은 곳을 바라 보고 있나요?](https://speakerdeck.com/arawn/urin-gateun-gateun-goseul-bara-bogo-issnayo)
+    - 2022·인프콘: [코틀린 멀티플랫폼, 미지와의 조우](https://www.slideshare.net/arawnkr/ss-252699629)
+    - 2021·당근 SERVER 밋업: [#살아있다 #자프링외길12년차 #코프링2개월생존기](https://github.com/arawn/kotlin-support-in-spring)
     - 2019·한국 스프링 사용자 모임 세미나: [잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다](https://www.slideshare.net/arawnkr/ss-195979955)
     - 2018·기업 초대 강연: [점진적인 레거시 웹 애플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
     - 2018·Spring Camp 컨퍼런스: [이벤트 기반 분산 시스템을 향한 여정](https://www.slideshare.net/arawnkr/ss-94475606)
@@ -43,7 +50,7 @@ images: ["/android-chrome-512x512.png"]
     - 2012·전자정부 표준프레임워크 오픈커뮤니티 기술세미나: [빠르게 살펴보는 Spring MVC의 모든 것](http://olc.kr/course/course_online_view.jsp?id=254)
 
 ### [김지헌](http://honeymon.io/about) / honeymon
-* 9년차 자바 기반 엔터프라이즈 애플리케이션 개발자
+* 14년차 엔터프라이즈 애플리케이션 개발 경력을 가진 시니어 소프트웨어 엔지니어
 * 지식 공유 및 기술 교류 목적으로 블로그 운영, 저서 출간, 다수의 세미나/교육 강연 활동
   - [블로그 - honeymon.io](http://honeymon.io)
   - [허니몬의 자바guru](https://java.ihoney.pe.kr/)

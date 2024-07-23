@@ -6,7 +6,7 @@ copyright = ""
 theme = "minimo"
 
 disqusShortname = ""
-googleAnalytics = "UA-131208921-1"
+googleAnalytics = ""
 
 Paginate = 5
 preserveTaxonomyNames = true
@@ -139,11 +139,6 @@ name   = "training"
 url    = "/training/"
 weight = 10
 
-[[menu.main]]
-name   = "guides"
-url    = "/guides/"
-weight = 20
-
 #[[menu.main]]
 #name = "Repo"
 #weight = -10
@@ -151,14 +146,12 @@ weight = 20
 #url = "https://github.com/springrunner"
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
-  
-[blackfriday]
-hrefTargetBlank = true
+  defaultMarkdownHandler = "goldmark"
 
 [languages]
 # edit this block for your own language
 [languages.en]
-lang = "en"
 languageName = "English"
 weight = 1
+[languages.en.params]
+lang = "en"

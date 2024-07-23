@@ -17,8 +17,8 @@ tags: ["spring mvc", "spring boot"]
 
 * Spring MVC와 Spring Boot가 제공하는 다양한 웹 기능을 학습할 수 있습니다.
 * 웹 애플리케이션에 서버 사이드 전체를 개발해보는 경험을 할 수 있습니다.
-    - 프론트엔드 엔지니어와 협업하며 프로젝트를 수행하는 것과 유사한 경험을 할 수 있습니다.
-    - 보편적인 웹 애플리케이션 아키텍처를 엿볼 수 있습니다.
+  - 프론트엔드 엔지니어와 협업하며 프로젝트를 수행하는 것과 유사한 경험을 할 수 있습니다.
+  - 보편적인 웹 애플리케이션 아키텍처를 엿볼 수 있습니다.
 * 라이브 코딩과 설명, 실습으로 18시간(온라인 3시간 / 오프라인 하루 7.5시간, 이틀간) 동안 진행됩니다.
 
 ### 목표
@@ -42,14 +42,14 @@ tags: ["spring mvc", "spring boot"]
 
 워크숍 과정에서 제공되는 학습 자료 중 일부를 [링크](https://github.com/springrunner/learn-spring-web-programming)를 통해 볼 수 있습니다. 그리고 사용하는 JVM 플랫폼 및 프레임워크, 라이브러리와 도구는 아래와 같습니다.
 
-* Java 1.8.x 및 Java EE 7을 사용합니다.
-* [Spring MVC 5.x](https://spring.io/projects/spring-framework), [Spring Boot 2.x](https://spring.io/projects/spring-boot)를 사용합니다.
+* Java 21 및 Jakarta EE 10을 사용합니다.
+* [Spring MVC 6.x](https://spring.io/projects/spring-framework), [Spring Boot 3.x](https://spring.io/projects/spring-boot)를 사용합니다.
 * 빌드 도구로 [그레이들(Gradle)](https://gradle.org)을 사용합니다.
-* [IDE](https://ko.wikipedia.org/wiki/통합_개발_환경)는 [Spring Tool Suite](https://spring.io/tools)를 사용합니다.
+* [IDE](https://ko.wikipedia.org/wiki/통합_개발_환경)는 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)을 사용합니다.
 
 ### 진행방식
 
-참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 [웹 클라이언트](https://github.com/springrunner/todoapp-client)로 할 일 관리 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.
+참가자는 제공되는 애플리케이션 정의서와 Web API 정의서, 그리고 [웹 클라이언트](https://github.com/springrunner/todoapp-client)로 할 일 목록 웹 애플리케이션(todos)에 서버 사이드를 개발합니다.
 
 <p align="center">
   <img width="640px" src="demo.png"/>
@@ -62,14 +62,14 @@ tags: ["spring mvc", "spring boot"]
 본 워크숍은 자바(Java)와 웹(Web)에 대한 이해가 있는 분을 대상으로 합니다.
 
 * 자바(Java)에 언어 특징과 문법을 이해하고 사용할 줄 알아야 합니다.
-    * 서블릿(Servlet)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
+  - 서블릿(Servlet)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
 * [HTTP](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html)에 대한 기본 지식과 이해가 필요합니다.
-    - 요청(Request)과 응답(Response)이라는 웹 처리 흐름에 대한 이해가 있어야 합니다.
-    - HTTP 헤더, 쿠키, 세션, 상태코드 등에 대한 이해가 있어야 합니다.
-    - [미디어타입(Media Type)](https://en.wikipedia.org/wiki/Media_type)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
+  - 요청(Request)과 응답(Response)이라는 웹 처리 흐름에 대한 이해가 있어야 합니다.
+  - HTTP 헤더, 쿠키, 세션, 상태코드 등에 대한 이해가 있어야 합니다.
+  - [미디어타입(Media Type)](https://en.wikipedia.org/wiki/Media_type)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
 * 웹 기술(HTML, CSS, JavaScript)에 대해 이해도가 있으면, 워크숍 과정에서 좀 더 많은 것을 얻을 수 있습니다.
 
-참가자는 Java 1.8.x와 Spring Tool Suite가 설치된 개인 노트북을 지참해야 합니다.
+참가자는 Java 21과 IntelliJ IDEA Community Edition이 설치된 개인 노트북을 지참해야 합니다.
 
 ### 참가신청
 
@@ -78,19 +78,24 @@ tags: ["spring mvc", "spring boot"]
 
 ### 참가취소 및 환불 정책
 - **마감전 취소/환불**은 페스타에서 할 수 있습니다.
-    - <small>참가 취소/환불 규정은 페스타 약관에 따라 처리됩니다.</small>
-    - <small>참가비의 100%가 환불됩니다.</small>
+  - <small>참가 취소/환불 규정은 페스타 약관에 따라 처리됩니다.</small>
+  - <small>참가비의 100%가 환불됩니다.</small>
 - **마감후 취소/환불**은 메일(help@springrunner.dev)로 신청해야합니다.
-    - <small>메일 내용에 은행 / 환불계좌 / 계좌주 / 연락처 / 페스타 아이디를 작성해 보내야합니다.</small>
-    - <small>참가비의 50%가 환불됩니다. (교육장 계약 비용으로 인한 점 양해바랍니다)</small>
+  - <small>메일 내용에 은행 / 환불계좌 / 계좌주 / 연락처 / 페스타 아이디를 작성해 보내야합니다.</small>
+  - <small>참가비의 50%가 환불됩니다. (교육장 계약 비용으로 인한 점 양해바랍니다)</small>
 
 <hr>
 
 ###### 워크숍 일정 및 이력
 
-이 워크숍은 코로나바이러스감염증-19(COVID-19) 상황이 진정될 때까지 잠정 중단되었습니다.
+###### Mastering Spring Web 101 Workshop (10th)
+- <small>일정: 2024년 8월 9일 ~ 8월 11일</small>
+- <small>장소: 서울 강남구 봉은사로 303 502호, eBrain</small>
 
-<hr>
+###### ~~Done: Mastering Spring Web 101 Workshop (9th)~~
+- <small>일정: 2020년 8월 14일 ~ 8월 16일</small>
+- <small>장소: 서울시 강남구 논현로105길 10 2층, 펀에듀스페이스</small>
+- <small>인원: 6명</small>
 
 ###### ~~Done: Mastering Spring Web 101 Workshop (8th)~~
 - <small>일정: 2020년 7월 17일 ~ 7월 19일</small>
