@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spring core on SpringRunner</title>
+    <title>Spring Core on SpringRunner</title>
     <link>https://springrunner.github.io/tags/spring-core/</link>
-    <description>Recent content in spring core on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Spring Core on SpringRunner</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://springrunner.github.io/tags/spring-core/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://springrunner.github.io/tags/spring-core/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn Essence of Spring Workshop</title>
       <link>https://springrunner.github.io/training/learn-essence-of-spring-workshop/</link>
       <pubDate>Tue, 17 Dec 2019 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/training/learn-essence-of-spring-workshop/</guid>
       <description>본 워크숍은 스프링 프레임워크의 기본 기술이자 핵심 개발 원칙인 제어의 역전(IoC)과 의존관계 주입(DI)을 이해하고, 더 나아가 스프링 핵심 기술인 관점지향</description>
     </item>
-    
   </channel>
 </rss>

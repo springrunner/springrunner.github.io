@@ -4,10 +4,8 @@
     <title>SpringRunner</title>
     <link>https://springrunner.github.io/guide/</link>
     <description>Recent content on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://springrunner.github.io/guide/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://springrunner.github.io/guide/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

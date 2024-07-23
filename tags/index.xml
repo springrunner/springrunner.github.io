@@ -4,38 +4,30 @@
     <title>Tags on SpringRunner</title>
     <link>https://springrunner.github.io/tags/</link>
     <description>Recent content in Tags on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://springrunner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://springrunner.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>spring core</title>
+      <title>Spring Core</title>
       <link>https://springrunner.github.io/tags/spring-core/</link>
       <pubDate>Tue, 17 Dec 2019 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/tags/spring-core/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spring boot</title>
+      <title>Spring Boot</title>
       <link>https://springrunner.github.io/tags/spring-boot/</link>
       <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spring mvc</title>
+      <title>Spring Mvc</title>
       <link>https://springrunner.github.io/tags/spring-mvc/</link>
       <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/tags/spring-mvc/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

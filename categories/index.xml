@@ -4,20 +4,16 @@
     <title>Categories on SpringRunner</title>
     <link>https://springrunner.github.io/categories/</link>
     <description>Recent content in Categories on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://springrunner.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://springrunner.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>workshop</title>
+      <title>Workshop</title>
       <link>https://springrunner.github.io/categories/workshop/</link>
       <pubDate>Tue, 17 Dec 2019 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/categories/workshop/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

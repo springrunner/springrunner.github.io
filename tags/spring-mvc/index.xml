@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spring mvc on SpringRunner</title>
+    <title>Spring Mvc on SpringRunner</title>
     <link>https://springrunner.github.io/tags/spring-mvc/</link>
-    <description>Recent content in spring mvc on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Spring Mvc on SpringRunner</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 01 Dec 2018 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://springrunner.github.io/tags/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://springrunner.github.io/tags/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering Spring Web 101 Workshop</title>
       <link>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</link>
       <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/training/mastering-spring-web-101-workshop/</guid>
       <description>본 워크숍은 Spring MVC와 Spring Boot로 웹 애플리케이션 서버 사이드(Server-side)를 직접 개발하며 학습하는 워크숍입니다. 참가자는 Spring MVC의 핵심</description>
     </item>
-    
   </channel>
 </rss>

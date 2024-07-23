@@ -4,29 +4,23 @@
     <title>Authors on SpringRunner</title>
     <link>https://springrunner.github.io/authors/</link>
     <description>Recent content in Authors on SpringRunner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 17 Dec 2019 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://springrunner.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://springrunner.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>arawn</title>
+      <title>Arawn</title>
       <link>https://springrunner.github.io/authors/arawn/</link>
       <pubDate>Tue, 17 Dec 2019 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/authors/arawn/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>honeymon</title>
+      <title>Honeymon</title>
       <link>https://springrunner.github.io/authors/honeymon/</link>
       <pubDate>Sat, 01 Dec 2018 09:00:00 +0900</pubDate>
-      
       <guid>https://springrunner.github.io/authors/honeymon/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
